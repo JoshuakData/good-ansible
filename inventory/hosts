@@ -1,12 +1,12 @@
 [frontends]
-frontend1.fc32.internal ansible_ssh_host=frontend1.fc32.internal
+frontend1.7d6d.internal ansible_ssh_host=frontend1.fc32.internal
 
 [apps]
-app1.fc32.internal ansible_ssh_host=app1.fc32.internal
-app2.fc32.internal ansible_ssh_host=app2.fc32.internal
+app1.7d6d.internal ansible_ssh_host=app1.fc32.internal
+app2.7d6d.internal ansible_ssh_host=app2.fc32.internal
 
 [appdbs]
-appdb1.fc32.internal ansible_ssh_host=appdb1.fc32.internal
+appdb1.7d6d.internal ansible_ssh_host=appdb1.fc32.internal
 
 [internal:children]
 frontends
